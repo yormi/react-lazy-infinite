@@ -1,10 +1,10 @@
 # react-lazy-infinite
 
-After trying redux-infinite-scroll](https://github.com/RealScout/redux-infinite-scroll) and [react-infinite](https://github.com/seatgeek/react-infinite), I had to adapt them to fit my needs and I ended up starting over.
+After trying [redux-infinite-scroll](https://github.com/RealScout/redux-infinite-scroll) and [react-infinite](https://github.com/seatgeek/react-infinite), I had to adapt them to fit my needs and I ended up starting over.
 
 This module is a lot inspired on the work mention above. Thanks guys !
 
-I decided to publish this in case someone find himself with the same use cases that I struggled with. If it doesn't fit your need, lookup [react-infinite](https://github.com/seatgeek/react-infinite) and redux-infinite-scroll](https://github.com/RealScout/redux-infinite-scroll)
+I decided to publish this in case someone find himself with the same use cases that I struggled with. If it doesn't fit your need, lookup [react-infinite](https://github.com/seatgeek/react-infinite) and [redux-infinite-scroll](https://github.com/RealScout/redux-infinite-scroll)
 
 # Installation
 

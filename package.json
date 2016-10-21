@@ -1,6 +1,6 @@
 {
   "name": "react-lazy-infinite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Infinite scrollable list of same height item lazy loaded with an automatic detection of the heigth",
   "main": "dist/infinite_scroll.js",
   "directories": {
@@ -9,18 +9,20 @@
   "scripts": {
     "build": "NODE_ENV=production babel src --out-dir dist/",
     "test": "mocha --watch test/* --compilers js:babel-core/register -r babel-polyfill -r test-them-all",
-    "lint": "standard | snazzy"
+    "lint": "standard | snazzy",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yormi/react-lazy-infinite.git"
   },
   "keywords": [
-    "Infinite",
-    "Scroll",
-    "Lazy",
-    "Automatic",
-    "Height"
+    "react",
+    "infinite",
+    "scroll",
+    "lazy",
+    "automatic",
+    "height"
   ],
   "author": "Guillaume Lambert <glamb93@gmail.com>",
   "license": "GPL-3.0",
@@ -46,6 +48,10 @@
     "babel-preset-stage-0": "^6.16.0",
     "enzyme": "^2.5.1",
     "mocha": "^3.1.2",
+    "react": "15.x.x",
+    "react-addons-pure-render-mixin": "15.x.x",
+    "react-addons-test-utils": "15.x.x",
+    "react-dom": "15.x.x",
     "sinon": "^1.17.6",
     "snazzy": "^5.0.0",
     "standard": "^8.4.0"
